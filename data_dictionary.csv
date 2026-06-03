@@ -1,0 +1,24 @@
+variable,type,label,description,values_or_range,notes
+person_id,Integer,Person Identifier,Unique identifier for each individual in the panel,1001-1020,Cross-sectional unit. Use as panel identifier (xtset person_id year).
+year,Integer,Survey Year,Calendar year of the observation,2015-2022,Time identifier. Use with person_id to declare panel (xtset person_id year).
+wage_hourly,Continuous,Hourly Wage (USD),Gross hourly wage in current-year US dollars. Missing (.) when unemployed.,0.00-105.00,"Set to 0.00 or missing (.) when employed=0. Always use ln_wage in regressions to reduce skew."
+ln_wage,Continuous,Log Hourly Wage,Natural logarithm of wage_hourly. Missing (.) when unemployed.,.,Missing coded as Stata system missing (.). Standard dependent variable for Mincer earnings equations.
+age,Integer,Age in Years,Respondent's age at survey date,18-57,Increases by 1 each year per person by design.
+education_years,Integer,Years of Schooling,Completed years of formal education at time of survey,10-20,"Values: 10=less than HS, 11=some HS, 12=HS diploma, 13=some college, 14=Associate/vocational, 16=Bachelor, 18=Master, 20=Doctorate/professional"
+experience,Integer,Potential Labour Market Experience,Years since leaving full-time education (age - education_years - 6),0-31,"Often called potential experience (Mincer, 1974). Always include experience_sq alongside this variable."
+experience_sq,Integer,Experience Squared,Square of experience. Captures concavity of age-earnings profile.,0-961,Defined as experience^2. Include to model diminishing returns.
+gender,Categorical,Gender,Respondent's gender,Male / Female,Binary in this dataset. Use i.gender in Stata factor notation.
+race,Categorical,Race/Ethnicity,Respondent's self-identified race or ethnicity,White / Black / Hispanic / Asian,Use i.race in factor notation. Omit one category as reference.
+region,Categorical,US Census Region,Geographic region of residence,Northeast / Midwest / South / West,Use i.region in factor notation.
+industry,Categorical,Industry Sector,Broad industry classification of employment,Manufacturing / Retail / Finance / Healthcare / Hospitality / Construction / Education / Technology,Coded from SIC/NAICS. Use i.industry in factor notation.
+occupation,Categorical,Occupation Group,Occupational classification,Manager / Professional / Analyst / Operative / Craft Worker / Sales Worker / Service Worker,Use i.occupation in factor notation.
+employed,Binary,Employment Status,Whether the respondent was employed during the survey reference week,0 = Not employed / 1 = Employed,wage_hourly and ln_wage are missing when employed=0.
+union_member,Binary,Union Membership,Whether the respondent is a current union or collective agreement member,0 = Non-union / 1 = Union member,Key variable for union wage premium estimation.
+firm_size,Categorical,Employer Firm Size,Size category of the employing firm,Small (<50) / Medium (50-499) / Large (500+),Proxy for ability-to-pay and wage-setting power.
+part_time,Binary,Part-Time Status,Whether the respondent works fewer than 35 hours per week,0 = Full-time / 1 = Part-time,Correlated with hours_week and wage_hourly.
+tenure_years,Integer,Job Tenure,Years with current employer. Zero when not employed.,0-25,Reset to 0 on job loss or change. Use to estimate returns to firm-specific capital.
+hours_week,Integer,Usual Hours Worked per Week,Usual hours worked per week in main job. Zero when not employed.,0-50,Zero when employed=0.
+health_status,Categorical,Self-Reported Health Status,Respondent's self-assessed general health,Excellent / Good / Fair / Poor,Ordered categorical. Recode to numeric for ordered probit/logit.
+married,Binary,Marital Status,Whether the respondent is currently married or in a registered partnership,0 = Not married / 1 = Married,Standard control in earnings regressions.
+children,Integer,Number of Children,Number of own children in the household under age 18,0-3,Used to analyse family gap in wages for women.
+urban,Binary,Urban Residence,Whether the respondent lives in an urban or metropolitan area,0 = Rural / 1 = Urban,Associated with higher wages due to agglomeration effects.

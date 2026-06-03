@@ -1,0 +1,161 @@
+person_id,year,wage_hourly,ln_wage,age,education_years,experience,experience_sq,gender,race,region,industry,occupation,employed,union_member,firm_size,part_time,tenure_years,hours_week,health_status,married,children,urban
+1001,2015,18.50,2.918,28,14,6,36,Male,White,Northeast,Manufacturing,Operative,1,0,Large,0,2,40,Good,0,0,1
+1001,2016,19.25,2.957,29,14,7,49,Male,White,Northeast,Manufacturing,Operative,1,0,Large,0,3,40,Good,0,0,1
+1001,2017,20.10,2.999,30,14,8,64,Male,White,Northeast,Manufacturing,Operative,1,1,Large,0,4,40,Good,1,0,1
+1001,2018,21.40,3.063,31,14,9,81,Male,White,Northeast,Manufacturing,Operative,1,1,Large,0,5,42,Good,1,1,1
+1001,2019,22.80,3.126,32,14,10,100,Male,White,Northeast,Manufacturing,Operative,1,1,Large,0,6,42,Good,1,1,1
+1001,2020,21.00,3.045,33,14,11,121,Male,White,Northeast,Manufacturing,Operative,0,0,Large,0,0,0,Good,1,1,1
+1001,2021,23.50,3.157,34,14,12,144,Male,White,Northeast,Manufacturing,Operative,1,1,Large,0,1,40,Good,1,1,1
+1001,2022,25.00,3.219,35,14,13,169,Male,White,Northeast,Manufacturing,Operative,1,1,Large,0,2,40,Good,1,2,1
+1002,2015,12.75,2.545,22,12,2,4,Female,Black,South,Retail,Sales Worker,1,0,Small,1,1,25,Good,0,0,1
+1002,2016,13.20,2.580,23,12,3,9,Female,Black,South,Retail,Sales Worker,1,0,Small,1,2,25,Good,0,0,1
+1002,2017,13.80,2.625,24,12,4,16,Female,Black,South,Retail,Sales Worker,1,0,Medium,1,3,28,Good,0,0,1
+1002,2018,14.50,2.674,25,12,5,25,Female,Black,South,Retail,Sales Worker,1,0,Medium,0,4,35,Good,1,0,1
+1002,2019,15.20,2.721,26,12,6,36,Female,Black,South,Retail,Sales Worker,1,0,Medium,0,5,38,Good,1,1,1
+1002,2020,14.00,2.639,27,12,7,49,Female,Black,South,Retail,Sales Worker,1,0,Medium,0,6,35,Fair,1,1,1
+1002,2021,15.80,2.760,28,12,8,64,Female,Black,South,Retail,Sales Worker,1,0,Medium,0,7,38,Good,1,1,1
+1002,2022,16.50,2.803,29,12,9,81,Female,Black,South,Retail,Sales Worker,1,0,Medium,0,8,40,Good,1,2,1
+1003,2015,35.00,3.555,38,16,14,196,Male,White,Midwest,Finance,Manager,1,0,Large,0,8,45,Excellent,1,2,1
+1003,2016,37.50,3.624,39,16,15,225,Male,White,Midwest,Finance,Manager,1,0,Large,0,9,45,Excellent,1,2,1
+1003,2017,39.00,3.664,40,16,16,256,Male,White,Midwest,Finance,Manager,1,0,Large,0,10,45,Excellent,1,2,1
+1003,2018,42.00,3.738,41,16,17,289,Male,White,Midwest,Finance,Manager,1,0,Large,0,11,47,Good,1,3,1
+1003,2019,45.00,3.807,42,16,18,324,Male,White,Midwest,Finance,Manager,1,0,Large,0,12,48,Good,1,3,1
+1003,2020,44.00,3.784,43,16,19,361,Male,White,Midwest,Finance,Manager,1,0,Large,0,13,44,Good,1,3,1
+1003,2021,47.50,3.861,44,16,20,400,Male,White,Midwest,Finance,Manager,1,0,Large,0,14,46,Good,1,3,1
+1003,2022,51.00,3.932,45,16,21,441,Male,White,Midwest,Finance,Manager,1,0,Large,0,15,46,Excellent,1,3,1
+1004,2015,28.00,3.332,32,16,8,64,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,3,40,Good,0,0,1
+1004,2016,29.50,3.384,33,16,9,81,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,4,40,Good,0,0,1
+1004,2017,31.00,3.434,34,16,10,100,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,5,40,Good,1,0,1
+1004,2018,33.00,3.497,35,16,11,121,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,6,40,Good,1,1,1
+1004,2019,35.50,3.569,36,16,12,144,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,7,40,Good,1,1,1
+1004,2020,36.00,3.584,37,16,13,169,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,8,42,Good,1,1,1
+1004,2021,38.50,3.650,38,16,14,196,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,9,40,Good,1,2,1
+1004,2022,41.00,3.714,39,16,15,225,Female,Hispanic,West,Healthcare,Professional,1,1,Large,0,10,40,Good,1,2,1
+1005,2015,10.50,2.351,19,11,1,1,Male,Black,South,Hospitality,Service Worker,1,0,Small,1,1,20,Good,0,0,0
+1005,2016,11.00,2.398,20,11,2,4,Male,Black,South,Hospitality,Service Worker,1,0,Small,1,2,22,Good,0,0,0
+1005,2017,11.50,2.442,21,11,3,9,Male,Black,South,Hospitality,Service Worker,0,0,Small,1,0,0,Good,0,0,0
+1005,2018,12.00,2.485,22,11,4,16,Male,Black,South,Hospitality,Service Worker,1,0,Small,1,1,24,Fair,0,0,0
+1005,2019,12.50,2.526,23,11,5,25,Male,Black,South,Hospitality,Service Worker,1,0,Small,1,2,26,Fair,0,0,1
+1005,2020,0.00,.,24,11,6,36,Male,Black,South,Hospitality,Service Worker,0,0,Small,0,0,0,Fair,0,0,1
+1005,2021,13.00,2.565,25,11,7,49,Male,Black,South,Hospitality,Service Worker,1,0,Small,1,1,28,Good,0,0,1
+1005,2022,13.80,2.625,26,11,8,64,Male,Black,South,Hospitality,Service Worker,1,0,Medium,0,2,32,Good,0,0,1
+1006,2015,55.00,4.007,45,20,19,361,Female,White,Northeast,Education,Professional,1,1,Large,0,12,40,Excellent,1,2,1
+1006,2016,57.00,4.043,46,20,20,400,Female,White,Northeast,Education,Professional,1,1,Large,0,13,40,Excellent,1,2,1
+1006,2017,59.00,4.078,47,20,21,441,Female,White,Northeast,Education,Professional,1,1,Large,0,14,40,Excellent,1,2,1
+1006,2018,62.00,4.127,48,20,22,484,Female,White,Northeast,Education,Professional,1,1,Large,0,15,40,Good,1,2,1
+1006,2019,65.00,4.174,49,20,23,529,Female,White,Northeast,Education,Professional,1,1,Large,0,16,40,Good,1,2,1
+1006,2020,65.00,4.174,50,20,24,576,Female,White,Northeast,Education,Professional,1,1,Large,0,17,38,Good,1,2,1
+1006,2021,68.00,4.220,51,20,25,625,Female,White,Northeast,Education,Professional,1,1,Large,0,18,40,Good,1,2,1
+1006,2022,71.00,4.263,52,20,26,676,Female,White,Northeast,Education,Professional,1,1,Large,0,19,40,Good,1,2,1
+1007,2015,16.00,2.773,26,13,5,25,Male,Hispanic,West,Construction,Craft Worker,1,1,Medium,0,2,44,Good,0,0,0
+1007,2016,17.00,2.833,27,13,6,36,Male,Hispanic,West,Construction,Craft Worker,1,1,Medium,0,3,44,Good,0,0,0
+1007,2017,18.00,2.890,28,13,7,49,Male,Hispanic,West,Construction,Craft Worker,1,1,Medium,0,4,45,Good,1,0,0
+1007,2018,19.50,2.970,29,13,8,64,Male,Hispanic,West,Construction,Craft Worker,1,1,Medium,0,5,45,Good,1,1,0
+1007,2019,21.00,3.045,30,13,9,81,Male,Hispanic,West,Construction,Craft Worker,1,1,Medium,0,6,46,Good,1,1,0
+1007,2020,18.00,2.890,31,13,10,100,Male,Hispanic,West,Construction,Craft Worker,0,0,Medium,0,0,0,Fair,1,1,0
+1007,2021,22.00,3.091,32,13,11,121,Male,Hispanic,West,Construction,Craft Worker,1,1,Medium,0,1,46,Good,1,1,0
+1007,2022,24.50,3.199,33,13,12,144,Male,Hispanic,West,Construction,Craft Worker,1,1,Large,0,2,46,Good,1,2,0
+1008,2015,9.50,2.251,18,10,0,0,Female,Black,South,Retail,Sales Worker,1,0,Small,1,1,18,Good,0,0,0
+1008,2016,10.00,2.303,19,10,1,1,Female,Black,South,Retail,Sales Worker,1,0,Small,1,2,20,Good,0,0,0
+1008,2017,10.50,2.351,20,10,2,4,Female,Black,South,Retail,Sales Worker,1,0,Small,1,3,20,Good,0,0,0
+1008,2018,11.20,2.416,21,12,3,9,Female,Black,South,Retail,Sales Worker,1,0,Small,1,4,22,Good,0,0,0
+1008,2019,11.80,2.468,22,12,4,16,Female,Black,South,Retail,Sales Worker,1,0,Small,1,5,24,Good,0,0,0
+1008,2020,10.50,2.351,23,12,5,25,Female,Black,South,Retail,Sales Worker,1,0,Small,1,6,20,Fair,0,0,0
+1008,2021,12.50,2.526,24,12,6,36,Female,Black,South,Retail,Sales Worker,1,0,Small,1,7,25,Good,0,0,1
+1008,2022,13.50,2.603,25,12,7,49,Female,Black,South,Retail,Sales Worker,1,0,Medium,0,8,32,Good,1,0,1
+1009,2015,42.00,3.738,40,18,16,256,Male,White,West,Technology,Professional,1,0,Large,0,10,50,Excellent,1,2,1
+1009,2016,45.00,3.807,41,18,17,289,Male,White,West,Technology,Professional,1,0,Large,0,11,50,Excellent,1,2,1
+1009,2017,48.00,3.871,42,18,18,324,Male,White,West,Technology,Professional,1,0,Large,0,12,50,Excellent,1,2,1
+1009,2018,52.00,3.951,43,18,19,361,Male,White,West,Technology,Professional,1,0,Large,0,13,50,Good,1,3,1
+1009,2019,56.00,4.025,44,18,20,400,Male,White,West,Technology,Professional,1,0,Large,0,14,48,Good,1,3,1
+1009,2020,58.00,4.060,45,18,21,441,Male,White,West,Technology,Professional,1,0,Large,0,15,46,Good,1,3,1
+1009,2021,62.00,4.127,46,18,22,484,Male,White,West,Technology,Professional,1,0,Large,0,16,48,Good,1,3,1
+1009,2022,67.00,4.205,47,18,23,529,Male,White,West,Technology,Professional,1,0,Large,0,17,48,Excellent,1,3,1
+1010,2015,14.00,2.639,24,13,3,9,Female,White,Midwest,Hospitality,Service Worker,1,0,Small,1,2,30,Good,0,0,0
+1010,2016,14.50,2.674,25,13,4,16,Female,White,Midwest,Hospitality,Service Worker,1,0,Small,1,3,30,Good,0,0,0
+1010,2017,15.00,2.708,26,13,5,25,Female,White,Midwest,Hospitality,Service Worker,1,0,Small,1,4,32,Good,0,0,0
+1010,2018,15.80,2.760,27,13,6,36,Female,White,Midwest,Hospitality,Service Worker,1,0,Medium,0,5,35,Good,1,0,0
+1010,2019,16.50,2.803,28,13,7,49,Female,White,Midwest,Hospitality,Service Worker,1,0,Medium,0,6,36,Good,1,0,0
+1010,2020,0.00,.,29,13,8,64,Female,White,Midwest,Hospitality,Service Worker,0,0,Medium,0,0,0,Fair,1,1,0
+1010,2021,17.50,2.862,30,13,9,81,Female,White,Midwest,Hospitality,Service Worker,1,0,Medium,0,1,36,Good,1,1,0
+1010,2022,18.50,2.918,31,13,10,100,Female,White,Midwest,Hospitality,Service Worker,1,0,Medium,0,2,38,Good,1,1,0
+1011,2015,32.00,3.466,35,16,11,121,Male,Asian,West,Technology,Analyst,1,0,Large,0,5,42,Excellent,1,1,1
+1011,2016,34.00,3.526,36,16,12,144,Male,Asian,West,Technology,Analyst,1,0,Large,0,6,42,Excellent,1,1,1
+1011,2017,36.50,3.597,37,16,13,169,Male,Asian,West,Technology,Analyst,1,0,Large,0,7,42,Excellent,1,2,1
+1011,2018,39.00,3.664,38,16,14,196,Male,Asian,West,Technology,Analyst,1,0,Large,0,8,44,Good,1,2,1
+1011,2019,42.00,3.738,39,16,15,225,Male,Asian,West,Technology,Analyst,1,0,Large,0,9,44,Good,1,2,1
+1011,2020,41.00,3.714,40,16,16,256,Male,Asian,West,Technology,Analyst,1,0,Large,0,10,40,Good,1,2,1
+1011,2021,45.00,3.807,41,16,17,289,Male,Asian,West,Technology,Analyst,1,0,Large,0,11,44,Good,1,2,1
+1011,2022,49.00,3.892,42,16,18,324,Male,Asian,West,Technology,Analyst,1,0,Large,0,12,44,Excellent,1,2,1
+1012,2015,20.00,2.996,30,14,8,64,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,4,38,Good,0,0,1
+1012,2016,21.00,3.045,31,14,9,81,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,5,38,Good,0,0,1
+1012,2017,22.50,3.114,32,14,10,100,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,6,38,Good,1,0,1
+1012,2018,24.00,3.178,33,14,11,121,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,7,40,Good,1,1,1
+1012,2019,25.50,3.239,34,14,12,144,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,8,40,Good,1,1,1
+1012,2020,25.00,3.219,35,14,13,169,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,9,38,Fair,1,1,1
+1012,2021,27.00,3.296,36,14,14,196,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,10,40,Good,1,2,1
+1012,2022,29.00,3.367,37,14,15,225,Female,Hispanic,South,Healthcare,Operative,1,1,Large,0,11,40,Good,1,2,1
+1013,2015,11.50,2.442,21,12,1,1,Male,White,Midwest,Retail,Sales Worker,1,0,Small,1,1,22,Good,0,0,0
+1013,2016,12.00,2.485,22,12,2,4,Male,White,Midwest,Retail,Sales Worker,1,0,Small,1,2,24,Good,0,0,0
+1013,2017,12.80,2.549,23,12,3,9,Male,White,Midwest,Retail,Sales Worker,1,0,Small,1,3,26,Good,0,0,0
+1013,2018,13.50,2.603,24,14,4,16,Male,White,Midwest,Retail,Sales Worker,1,0,Medium,0,4,32,Good,0,0,0
+1013,2019,14.50,2.674,25,14,5,25,Male,White,Midwest,Retail,Sales Worker,1,0,Medium,0,5,35,Good,0,0,0
+1013,2020,13.00,2.565,26,14,6,36,Male,White,Midwest,Retail,Sales Worker,0,0,Medium,0,0,0,Good,0,0,0
+1013,2021,15.50,2.740,27,14,7,49,Male,White,Midwest,Retail,Sales Worker,1,0,Medium,0,1,36,Good,1,0,0
+1013,2022,17.00,2.833,28,14,8,64,Male,White,Midwest,Retail,Sales Worker,1,0,Medium,0,2,38,Good,1,0,0
+1014,2015,75.00,4.317,50,20,24,576,Male,White,Northeast,Finance,Manager,1,0,Large,0,18,50,Good,1,3,1
+1014,2016,80.00,4.382,51,20,25,625,Male,White,Northeast,Finance,Manager,1,0,Large,0,19,50,Good,1,3,1
+1014,2017,85.00,4.443,52,20,26,676,Male,White,Northeast,Finance,Manager,1,0,Large,0,20,50,Good,1,3,1
+1014,2018,90.00,4.500,53,20,27,729,Male,White,Northeast,Finance,Manager,1,0,Large,0,21,48,Good,1,3,1
+1014,2019,95.00,4.554,54,20,28,784,Male,White,Northeast,Finance,Manager,1,0,Large,0,22,48,Fair,1,3,1
+1014,2020,92.00,4.522,55,20,29,841,Male,White,Northeast,Finance,Manager,1,0,Large,0,23,46,Fair,1,3,1
+1014,2021,98.00,4.585,56,20,30,900,Male,White,Northeast,Finance,Manager,1,0,Large,0,24,48,Fair,1,3,1
+1014,2022,105.00,4.654,57,20,31,961,Male,White,Northeast,Finance,Manager,1,0,Large,0,25,46,Good,1,3,1
+1015,2015,17.50,2.862,27,13,6,36,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,3,40,Good,0,0,1
+1015,2016,18.50,2.918,28,13,7,49,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,4,40,Good,0,0,1
+1015,2017,19.50,2.970,29,13,8,64,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,5,40,Good,1,0,1
+1015,2018,20.50,3.020,30,13,9,81,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,6,40,Good,1,1,1
+1015,2019,21.50,3.068,31,13,10,100,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,7,40,Good,1,1,1
+1015,2020,20.00,2.996,32,13,11,121,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,8,38,Fair,1,1,1
+1015,2021,22.50,3.114,33,13,12,144,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,9,40,Good,1,2,1
+1015,2022,24.00,3.178,34,13,13,169,Female,Asian,West,Manufacturing,Operative,1,1,Large,0,10,40,Good,1,2,1
+1016,2015,26.00,3.258,33,16,9,81,Male,Black,Northeast,Education,Professional,1,1,Large,0,4,40,Good,0,0,1
+1016,2016,27.50,3.314,34,16,10,100,Male,Black,Northeast,Education,Professional,1,1,Large,0,5,40,Good,0,0,1
+1016,2017,29.00,3.367,35,16,11,121,Male,Black,Northeast,Education,Professional,1,1,Large,0,6,40,Good,1,0,1
+1016,2018,31.00,3.434,36,16,12,144,Male,Black,Northeast,Education,Professional,1,1,Large,0,7,40,Good,1,1,1
+1016,2019,33.00,3.497,37,16,13,169,Male,Black,Northeast,Education,Professional,1,1,Large,0,8,40,Good,1,1,1
+1016,2020,33.00,3.497,38,16,14,196,Male,Black,Northeast,Education,Professional,1,1,Large,0,9,40,Good,1,1,1
+1016,2021,35.50,3.569,39,16,15,225,Male,Black,Northeast,Education,Professional,1,1,Large,0,10,40,Good,1,2,1
+1016,2022,38.00,3.638,40,16,16,256,Male,Black,Northeast,Education,Professional,1,1,Large,0,11,40,Good,1,2,1
+1017,2015,8.75,2.169,20,11,1,1,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,1,16,Good,0,0,0
+1017,2016,9.25,2.225,21,11,2,4,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,2,18,Good,0,0,0
+1017,2017,9.75,2.277,22,11,3,9,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,3,18,Good,0,0,0
+1017,2018,10.50,2.351,23,11,4,16,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,4,20,Good,0,0,0
+1017,2019,11.00,2.398,24,11,5,25,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,5,22,Good,0,0,0
+1017,2020,0.00,.,25,11,6,36,Female,Hispanic,South,Hospitality,Service Worker,0,0,Small,0,0,0,Fair,0,0,0
+1017,2021,11.75,2.464,26,11,7,49,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,1,24,Good,0,1,0
+1017,2022,12.50,2.526,27,11,8,64,Female,Hispanic,South,Hospitality,Service Worker,1,0,Small,1,2,26,Good,0,1,0
+1018,2015,38.00,3.638,36,18,12,144,Male,White,West,Technology,Analyst,1,0,Large,0,6,45,Excellent,1,1,1
+1018,2016,40.00,3.689,37,18,13,169,Male,White,West,Technology,Analyst,1,0,Large,0,7,45,Excellent,1,1,1
+1018,2017,43.00,3.761,38,18,14,196,Male,White,West,Technology,Analyst,1,0,Large,0,8,45,Excellent,1,2,1
+1018,2018,46.00,3.829,39,18,15,225,Male,White,West,Technology,Analyst,1,0,Large,0,9,46,Good,1,2,1
+1018,2019,49.00,3.892,40,18,16,256,Male,White,West,Technology,Analyst,1,0,Large,0,10,46,Good,1,2,1
+1018,2020,48.00,3.871,41,18,17,289,Male,White,West,Technology,Analyst,1,0,Large,0,11,44,Good,1,2,1
+1018,2021,53.00,3.970,42,18,18,324,Male,White,West,Technology,Analyst,1,0,Large,0,12,46,Good,1,3,1
+1018,2022,58.00,4.060,43,18,19,361,Male,White,West,Technology,Analyst,1,0,Large,0,13,46,Excellent,1,3,1
+1019,2015,22.00,3.091,29,14,7,49,Female,White,Midwest,Finance,Analyst,1,0,Medium,0,3,40,Good,1,0,1
+1019,2016,23.50,3.157,30,14,8,64,Female,White,Midwest,Finance,Analyst,1,0,Medium,0,4,40,Good,1,0,1
+1019,2017,25.00,3.219,31,14,9,81,Female,White,Midwest,Finance,Analyst,1,0,Medium,0,5,40,Good,1,1,1
+1019,2018,27.00,3.296,32,14,10,100,Female,White,Midwest,Finance,Analyst,1,0,Large,0,6,40,Good,1,1,1
+1019,2019,29.00,3.367,33,14,11,121,Female,White,Midwest,Finance,Analyst,1,0,Large,0,7,40,Good,1,1,1
+1019,2020,28.00,3.332,34,14,12,144,Female,White,Midwest,Finance,Analyst,1,0,Large,0,8,38,Good,1,2,1
+1019,2021,31.00,3.434,35,14,13,169,Female,White,Midwest,Finance,Analyst,1,0,Large,0,9,40,Good,1,2,1
+1019,2022,34.00,3.526,36,14,14,196,Female,White,Midwest,Finance,Analyst,1,0,Large,0,10,40,Good,1,2,1
+1020,2015,15.00,2.708,25,12,5,25,Male,Hispanic,South,Construction,Craft Worker,1,1,Small,0,2,44,Good,0,0,0
+1020,2016,16.00,2.773,26,12,6,36,Male,Hispanic,South,Construction,Craft Worker,1,1,Small,0,3,44,Good,0,0,0
+1020,2017,17.00,2.833,27,12,7,49,Male,Hispanic,South,Construction,Craft Worker,1,1,Medium,0,4,45,Good,1,0,0
+1020,2018,18.50,2.918,28,12,8,64,Male,Hispanic,South,Construction,Craft Worker,1,1,Medium,0,5,46,Good,1,1,0
+1020,2019,20.00,2.996,29,12,9,81,Male,Hispanic,South,Construction,Craft Worker,1,1,Medium,0,6,46,Good,1,1,0
+1020,2020,17.00,2.833,30,12,10,100,Male,Hispanic,South,Construction,Craft Worker,0,0,Medium,0,0,0,Fair,1,1,0
+1020,2021,21.00,3.045,31,12,11,121,Male,Hispanic,South,Construction,Craft Worker,1,1,Medium,0,1,46,Good,1,2,0
+1020,2022,23.00,3.135,32,12,12,144,Male,Hispanic,South,Construction,Craft Worker,1,1,Medium,0,2,46,Good,1,2,0
